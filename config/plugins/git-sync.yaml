@@ -1,0 +1,18 @@
+enabled: true
+text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+folders:
+  - pages
+repository: 'https://github.com/openbook/andybracecom-blog'
+user: openbook
+password: gitsync-def502003c0c25d9bc1ae6303517ea82c929d696f63992f6556d7c3c1181fdcd4d077443c09cb4bd881b897ed7aa92ddd2fe3264c51a2a9fa160fe9bbf7b7c2bb33360d220198520d1936f1f67f1c4fb67a778d6c18ccdde1305c0981155
+webhook: /_git-sync
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
