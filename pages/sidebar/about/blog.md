@@ -1,6 +1,8 @@
 ---
+published: false
 taxonomy:
-    category: sidebar
+    category:
+        - sidebar
 css_suffix: widget-about
 surround: authorzo
 image: about.png
