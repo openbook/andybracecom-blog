@@ -8,4 +8,4 @@ First of all I've been watching these excellent videos from Josh'sHappiness: [pl
 
 The following pae describes how to calculate what solar panel wattage you need, [http://www.campingandcaravanningclub.co.uk/helpandadvice/technicalhelp/solar-power/]()
 
-I decided to go with a 80W panel which I bought here: [http://amzn.to/2ugTmKx]()
+I decided to go with a 80W panel which I bought here: [http://amzn.to/2ugTmKx](http://amzn.to/2ugTmKx)
