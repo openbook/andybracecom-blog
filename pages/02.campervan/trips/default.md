@@ -1,5 +1,6 @@
 ---
 title: Trips
+visible: true
 content:
     items: '@self.children'
     order:
