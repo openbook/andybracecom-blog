@@ -1,0 +1,27 @@
+name: Theme Ab
+version: 0.1.0
+description: Theme for Andybrace.com
+icon: rebel
+author:
+  name: Andy Brace
+  email: contact@openbook.uk.com
+homepage: https://github.com/andy-brace/grav-theme-theme-ab
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/andy-brace/grav-theme-theme-ab/issues
+readme: https://github.com/andy-brace/grav-theme-theme-ab/blob/develop/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in Menu
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
