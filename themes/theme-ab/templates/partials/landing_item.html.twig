@@ -1,0 +1,20 @@
+<section class="post pure-u-1">
+    <div class="media">
+        <div class="pure-u">
+            {% if page.media.images|first %}
+                {{ page.media.images|first.cropZoom(100,75).html('','', 'thumb') }}
+            {% endif %}
+        </div>
+        <div class="pure-u-3-4">
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <div class="post-summary">
+                {%  if page.header.custom.intro %}
+                    {{ page.header.custom.intro }}
+                {% else %}
+                    {{ page.content|truncate(550) }}
+                {% endif %}
+                <p class="read_more"><a href="{{ page.url }}">read more</a></p>
+            </div>
+        </div>
+    </div>
+</section>
