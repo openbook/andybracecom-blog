@@ -1,5 +1,5 @@
 ---
-title: 'About me'
+title: About
 ---
 
 Hello there.  My name is Andy.  I'm a developer, currently living in North London in the UK.  I'm starting this site for a few reasons:
