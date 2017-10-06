@@ -1,0 +1,6 @@
+---
+title: Australia
+---
+
+Visa:
+Climate:
