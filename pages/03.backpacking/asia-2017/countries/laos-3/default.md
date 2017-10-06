@@ -1,5 +1,5 @@
 ---
-title: 'China 2'
+title: Japan
 ---
 
 Visa: 
