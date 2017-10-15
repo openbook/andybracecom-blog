@@ -1,6 +1,7 @@
 {% set sidebar_content = page.find('/sidebar') %}
-{{  sidebar_content.content }}
-
+<div class="sidebar_about_content">
+    {{  sidebar_content.content }}
+</div>
 
 {% for module in page.collection({'items':{'@taxonomy.category': 'sidebar'},'order': {'by': 'default', 'dir': 'asc'}}) %}
   {% if module.template %}

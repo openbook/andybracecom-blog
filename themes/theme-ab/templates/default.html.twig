@@ -1,9 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+    <h1 class="page-title">{{ page.title }}</h1>
     {{ page.content }}
 {% endblock %}
 
 {% block sidebar %}
-    Here is the sidebar
+    {% include 'partials/sidebar.html.twig' %}
 {% endblock %}

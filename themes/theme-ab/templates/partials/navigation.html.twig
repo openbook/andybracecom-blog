@@ -36,7 +36,7 @@
             </li>
         {% endfor %}
     {% endif %}
-    {% for mitem in site.menu %}
+    {% for mitem in site.menu if mitem.url != 'error' %}
         <li>
             <a href="{{ mitem.url }}">
                 {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}

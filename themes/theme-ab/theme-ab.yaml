@@ -1,3 +1,6 @@
-enabled: true
+enabled: false
 dropdown:
-  enabled: true
+  enabled: false
+plugins:
+  simplesearch:
+    enabled: false
