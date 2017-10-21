@@ -1,5 +1,6 @@
 ---
 title: Contact
+published: false
 form:
     name: my-nice-form
     fields:
