@@ -1,5 +1,14 @@
 ---
 title: 'Bali, Lombok and the Gilis'
+metadata:
+    keywords: 'bali, lombok, backpacking bali and lombok, ubud, canggu, uluwatu'
+taxonomy:
+    category:
+        - backpacking
+    tag:
+        - asia
+        - bali
+        - lombok
 travel:
     visa: '30 days with proof of onward travel'
     climate: 'Rainy season October - March'
