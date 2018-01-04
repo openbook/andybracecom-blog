@@ -9,6 +9,8 @@ taxonomy:
         - asia
         - bali
         - lombok
+featherlight:
+    active: true
 travel:
     visa: '30 days with proof of onward travel'
     climate: 'Rainy season October - March'
