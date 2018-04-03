@@ -1,0 +1,36 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    {% if (count(page.header.travel)) %}
+        <dl>
+            {% for travelKey, travelItem in page.header.travel %}
+                <dt>{{ ucfirst(travelKey) }}</dt>
+                <dd>{{ travelItem }}</dd>
+            {% endfor %}
+        </dl>
+    {% endif %}
+
+    {{ page.content }}
+
+    {% if (count(page.header.traveltip)) %}
+        <h2>Travel tips</h2>
+        <ol>
+            {% for travelTipKey, travelTipItem in page.header.traveltip %}
+                <li>{{ travelTipItem }}</li>
+            {% endfor %}
+        </ol>
+    {% endif %}
+
+
+    {{ images_collage(page.media.images, 3, 5, 900).html }}
+
+
+
+{% endblock %}
+
+{% block sidebar %}
+    {% include 'partials/sidebar.html.twig' %}
+{% endblock %}
