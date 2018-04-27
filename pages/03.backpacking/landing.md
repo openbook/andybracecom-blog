@@ -1,5 +1,6 @@
 ---
 title: Backpacking
+published: false
 content:
     items: '@self.children'
     order:
